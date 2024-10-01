@@ -1,3 +1,27 @@
 :root {
     --black: #000000;
+    --white: #ffffff;
+
+    --main-background: #111928;
+
+    /* blue buttons */
+    --blue: #1a56db;
+
+    /* background for some sections and grey buttons */
+    --grey-background: #1f2a37;
+    /* borders for them */
+    --grey-border: #374151;
+    /* and text */
+    --grey-text: #9ca3af;
+
+    /* CTA links */
+    --blue-link: #3f83f8;
+
+    /* for "partner since..." */
+    --dark-grey-text: #6b7280;
+
+    --progress-bar-blue: #1c64f2;
+    --progress-bar-background: #374151;
+
+    --form-border-grey: #4b5563;
 }
