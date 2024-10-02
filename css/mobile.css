@@ -56,3 +56,10 @@ nav .burger-menu {
     font-size: 1rem;
     line-height: 1.5rem;
 }
+
+.hero .buttons {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
