@@ -8,12 +8,33 @@ body {
     border: 2px solid red;
 }
 
-/* NAVBAR CONTAINER */
+/* NAVBAR SECTION */
 
 nav .container {
     margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 nav .logo {
     font-size: 1.666rem;
+}
+
+nav .navbar {
+    display: none;
+}
+
+nav .login-buttons {
+    display: none;
+}
+
+nav .burger-menu {
+    font-size: 1.666rem;
+}
+
+/* HERO SECTION */
+
+.hero .container {
+    margin-top: 2rem;
 }
