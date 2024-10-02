@@ -87,3 +87,7 @@ nav .burger-menu {
 .hero h6 {
     display: none;
 }
+
+.hero .sponsors {
+    margin-top: 1rem;
+}
