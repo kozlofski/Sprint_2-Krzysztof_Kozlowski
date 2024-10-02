@@ -18,6 +18,11 @@ button {
     border-radius: 8px;
 }
 
+button.blue {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
 /* NAVBAR SECTION */
 
 nav .container {
