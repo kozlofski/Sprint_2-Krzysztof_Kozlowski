@@ -1,3 +1,7 @@
+body {
+    background-color: var(--main-background);
+}
+
 .container {
     margin: 0 1rem;
     border: 2px solid red;
