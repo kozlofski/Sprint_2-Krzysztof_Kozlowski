@@ -83,3 +83,7 @@ nav .burger-menu {
 .fa-video {
     margin-right: 0.5rem;
 }
+
+.hero h6 {
+    display: none;
+}
