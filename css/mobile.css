@@ -132,3 +132,11 @@ nav .burger-menu {
 .indicator-inactive {
     background-color: var(--indicator-inactive);
 }
+
+/* SOCIAL PROOF SECTION */
+
+.social-proof .container {
+    margin-top: 2rem;
+    background-color: var(--grey-background);
+    border-radius: 0.5rem;
+}
