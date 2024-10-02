@@ -14,6 +14,10 @@ h2 {
     /* 30px */
 }
 
+button {
+    border-radius: 8px;
+}
+
 /* NAVBAR SECTION */
 
 nav .container {
