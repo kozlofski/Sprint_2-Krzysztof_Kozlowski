@@ -24,6 +24,12 @@ button.blue {
     color: var(--white);
 }
 
+button.dark-grey {
+    background-color: var(--grey-background);
+    color: var(--grey-text);
+    border: 1px solid var(--grey-border);
+}
+
 /* NAVBAR SECTION */
 
 nav .container {
