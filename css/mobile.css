@@ -139,4 +139,11 @@ nav .burger-menu {
     margin-top: 2rem;
     background-color: var(--grey-background);
     border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.social-proof .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
