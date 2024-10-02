@@ -100,4 +100,31 @@ nav .burger-menu {
     background-color: green;
     height: 176px;
     border-radius: 0.5rem;
+    position: relative;
+}
+
+.indicators {
+    width: 68px;
+    height: 12px;
+    /* background-color: rgba(0, 0, 0, 0.247); */
+    position: absolute;
+    bottom: 18.37px;
+    left: calc(50% - 34px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.indicator {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+}
+
+.indicator-active {
+    background-color: var(--white);
+}
+
+.indicator-inactive {
+    background-color: var(--indicator-inactive);
 }
