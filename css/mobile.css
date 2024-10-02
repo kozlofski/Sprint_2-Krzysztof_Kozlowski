@@ -38,3 +38,8 @@ nav .burger-menu {
 .hero .container {
     margin-top: 2rem;
 }
+
+.hero .title-and-description {
+    display: flex;
+    flex-direction: column;
+}
