@@ -8,6 +8,11 @@ body {
     border: 2px solid red;
 }
 
+h2 {
+    font-size: 1.875rem;
+    /* 30px */
+}
+
 /* NAVBAR SECTION */
 
 nav .container {
