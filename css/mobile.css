@@ -95,3 +95,9 @@ nav .burger-menu {
     justify-content: left;
     gap: 1rem;
 }
+
+.hero .carousel {
+    background-color: green;
+    height: 176px;
+    border-radius: 0.5rem;
+}
