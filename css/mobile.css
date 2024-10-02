@@ -2,3 +2,9 @@
     margin: 0 1rem;
     border: 2px solid red;
 }
+
+/* NAVBAR CONTAINER */
+
+nav .container {
+    margin-top: 1.5rem;
+}
