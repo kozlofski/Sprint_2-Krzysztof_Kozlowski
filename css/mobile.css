@@ -167,6 +167,7 @@ nav .burger-menu {
 
 .stat p {
     font-size: 1rem;
+    font-weight: 400;
     line-height: 1.5rem;
     color: var(--grey-text);
     text-align: center;
@@ -193,6 +194,7 @@ nav .burger-menu {
 }
 
 .cta-upper h3 {
+    color: var(--white);
     font-size: 1.875rem;
     line-height: 2.34375rem;
     font-weight: 800;
