@@ -165,6 +165,10 @@ nav .burger-menu {
 
 /* CTA UPPER */
 
+.cta-upper .container {
+    margin-top: 2rem;
+}
+
 .cta-upper button {
     padding: 10px 20px;
 }
