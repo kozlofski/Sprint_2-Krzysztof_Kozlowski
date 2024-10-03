@@ -275,32 +275,32 @@ section.customer-logos {
 
 }
 
-.card svg {
+.customer-logos .card svg {
     width: 142px;
 }
 
-.card .fa-arrow-right {
+.customer-logos .card .fa-arrow-right {
     margin-left: 0.375rem;
 }
 
-.card button {
+.customer-logos .card button {
     padding: 0.5rem 0.75rem;
 }
 
-.card .fa-arrow-up-right-from-square {
+.customer-logos .card .fa-arrow-up-right-from-square {
     margin-right: 0.5rem;
 }
 
-.card .customer-logo {
+.customer-logos .card .customer-logo {
     height: 3.625rem;
     align-content: center;
 }
 
-.card p {
+.customer-logos .card p {
     color: var(--grey-text);
 }
 
-.card button {
+.customer-logos .card button {
     margin-top: 1.25rem;
 }
 
@@ -319,4 +319,5 @@ section.customer-logos {
     margin-top: 1rem;
     color: var(--grey-text);
     text-align: center;
+    line-height: 1.5rem;
 }
