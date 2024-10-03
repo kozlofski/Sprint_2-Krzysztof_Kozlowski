@@ -415,3 +415,14 @@ section.customer-logos {
     line-height: 1.5rem;
     text-align: left;
 }
+
+.cta-lower .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.cta-lower .fa-share-nodes {
+    margin-right: 0.5rem;
+}
