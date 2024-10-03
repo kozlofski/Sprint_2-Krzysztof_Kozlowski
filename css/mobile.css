@@ -217,8 +217,9 @@ nav .burger-menu {
 
 /* CUSTOMER LOGOS */
 
-.customer-logos .container {
-    margin-top: 2rem;
+section.customer-logos {
+    background-color: var(--grey-background);
+    padding: 2rem 0;
 }
 
 .customer-logos .heading-and-description {
@@ -274,23 +275,31 @@ nav .burger-menu {
 
 }
 
-.customer-logos svg {
+.card svg {
     width: 142px;
 }
 
-.customer-logos .fa-arrow-right {
+.card .fa-arrow-right {
     margin-left: 0.375rem;
 }
 
-.customer-logos button {
+.card button {
     padding: 0.5rem 0.75rem;
 }
 
-.customer-logos .fa-arrow-up-right-from-square {
+.card .fa-arrow-up-right-from-square {
     margin-right: 0.5rem;
 }
 
 .card .customer-logo {
     height: 3.625rem;
     align-content: center;
+}
+
+.card p {
+    color: var(--grey-text);
+}
+
+.card button {
+    margin-top: 1.25rem;
 }
