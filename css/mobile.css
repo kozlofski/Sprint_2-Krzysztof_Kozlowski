@@ -1,6 +1,10 @@
 body {
     background-color: var(--main-background);
     color: var(--white);
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .container {
@@ -186,6 +190,16 @@ nav .burger-menu {
 
 .cta-upper p {
     font-size: 1.125rem;
+    color: var(--grey-text);
     line-height: 1.6875rem;
     font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.cta-upper .buttons {
+    margin-top: 1.5rem;
+}
+
+.cta-upper .blue {
+    margin-right: 1rem;
 }
