@@ -457,3 +457,45 @@ section.customer-logos {
     margin-top: 1rem;
     line-height: 1.5rem;
 }
+
+.contact form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.contact label {
+    font-size: 0.875rem;
+    color: var(--white);
+}
+
+
+.contact input,
+.contact textarea {
+    background-color: var(--form-input-background);
+    border: 1px solid var(--form-border-grey);
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    padding: 0.875rem 1rem;
+    color: var(--white);
+}
+
+.contact input::placeholder {
+    color: var(--grey-text);
+}
+
+.contact textarea {
+    height: 12rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact button {
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    padding: 0.625rem 1.25rem;
+}
