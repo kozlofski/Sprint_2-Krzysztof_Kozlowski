@@ -333,4 +333,10 @@ section.customer-logos {
     background-color: var(--grey-background);
     border: 1px solid var(--grey-border);
     border-radius: 0.5rem;
+    padding: 1.25rem;
+}
+
+.cta-lower img {
+    width: 100%;
+    border-radius: 8px;
 }
