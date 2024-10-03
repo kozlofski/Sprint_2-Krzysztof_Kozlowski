@@ -381,3 +381,24 @@ section.customer-logos {
     font-size: 0.75rem;
     color: var(--grey-text);
 }
+
+.cta-lower .progress-bar {
+    width: 100%;
+    height: 0.625rem;
+    background-color: var(--progress-bar-background);
+    margin-top: 0.25rem;
+}
+
+.cta-lower .indicator {
+    height: 100%;
+    border-radius: 0;
+    background-color: var(--progress-bar-blue);
+}
+
+.cta-lower .indicator-trees {
+    width: 94.2%;
+}
+
+.cta-lower .indicator-livesaving {
+    width: 50.5%;
+}
