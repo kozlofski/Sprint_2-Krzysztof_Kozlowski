@@ -226,13 +226,13 @@ nav .burger-menu {
     flex-direction: column;
 }
 
-.customer-logos h3 {
+.heading-and-description h3 {
     font-size: 1.875rem;
     font-weight: 800;
     text-align: center;
 }
 
-.customer-logos p {
+.heading-and-description p {
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--grey-text);
@@ -240,7 +240,7 @@ nav .burger-menu {
     margin-top: 1rem;
 }
 
-.customer-logos a {
+.heading-and-description a {
     font-size: 1rem;
     font-weight: 500;
     color: var(--blue-link);
@@ -248,9 +248,25 @@ nav .burger-menu {
     margin-top: 1rem;
 }
 
+.customer-logos .customers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
 .customer-logos .card {
     width: 142px;
     height: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+}
+
+.customer-logos svg {
+    width: 142px;
 }
 
 .customer-logos .fa-arrow-right {
@@ -264,3 +280,13 @@ nav .burger-menu {
 .customer-logos .fa-arrow-up-right-from-square {
     margin-right: 0.5rem;
 }
+
+.card .customer-logo {
+    height: 3.625rem;
+    align-content: center;
+}
+
+/* 
+.card p {
+    margin-top: 3.625rem;
+} */
