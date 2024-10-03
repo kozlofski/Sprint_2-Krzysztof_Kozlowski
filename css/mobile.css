@@ -106,6 +106,7 @@ nav .burger-menu {
 }
 
 .hero .carousel {
+    width: 100%;
     position: relative;
 }
 
