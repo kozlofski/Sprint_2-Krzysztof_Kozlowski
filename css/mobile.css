@@ -159,9 +159,8 @@ nav .burger-menu {
 }
 
 .stat h3 {
-    font-size: 30px;
-    line-height: 38px;
-    /* change to rem? */
+    font-size: 1.875rem;
+    line-height: 2.375rem;
     font-weight: 800;
     text-align: center;
 }
