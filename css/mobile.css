@@ -375,6 +375,7 @@ section.customer-logos {
 .cta-lower .goal {
     margin-left: 0.5rem;
     font-size: 0.875rem;
+    font-weight: 400;
     color: var(--grey-text);
     justify-self: left;
 }
@@ -386,6 +387,7 @@ section.customer-logos {
 
 .cta-lower .donors {
     font-size: 0.75rem;
+    font-weight: 400;
     color: var(--grey-text);
 }
 
