@@ -340,3 +340,44 @@ section.customer-logos {
     width: 100%;
     border-radius: 8px;
 }
+
+.cta-lower .donation-progress {
+    width: 100%;
+}
+
+.cta-lower .label {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-lower .left-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cta-lower .sum {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.cta-lower .goal {
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--grey-text);
+    justify-self: left;
+}
+
+.cta-lower .right-content {
+    display: flex;
+    align-items: center;
+}
+
+.cta-lower .donors {
+    font-size: 0.75rem;
+    color: var(--grey-text);
+}
