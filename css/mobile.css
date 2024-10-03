@@ -172,3 +172,7 @@ nav .burger-menu {
 .cta-upper button {
     padding: 10px 20px;
 }
+
+.cta-upper img {
+    display: none;
+}
