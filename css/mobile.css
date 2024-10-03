@@ -506,6 +506,7 @@ section.customer-logos {
 footer {
     background-color: var(--grey-background);
     padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 footer .container {
@@ -532,4 +533,18 @@ footer a:visited {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
+}
+
+footer .logo-and-social-links {
+    margin-top: 4rem;
+}
+
+footer .copyright {
+    color: var(--grey-text);
+    font-size: 1rem;
+}
+
+footer .fa-copyright {
+    margin-right: 0.5rem;
+    font-size: 0.875rem;
 }
