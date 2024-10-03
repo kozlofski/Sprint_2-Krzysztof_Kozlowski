@@ -214,3 +214,15 @@ nav .burger-menu {
 .cta-upper .fa-arrow-right {
     margin-left: 0.5rem;
 }
+
+/* CUSTOMER LOGOS */
+
+.customer-logos .container {
+    margin-top: 2rem;
+}
+
+.customer-logos h3 {
+    font-size: 1.875rem;
+    font-weight: 800;
+    text-align: center;
+}
