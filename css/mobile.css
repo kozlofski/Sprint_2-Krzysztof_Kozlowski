@@ -251,3 +251,11 @@ nav .burger-menu {
 .customer-logos .fa-arrow-right {
     margin-left: 0.375rem;
 }
+
+.customer-logos button {
+    padding: 0.5rem 0.75rem;
+}
+
+.customer-logos .fa-arrow-up-right-from-square {
+    margin-right: 0.5rem;
+}
