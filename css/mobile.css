@@ -27,6 +27,7 @@ button {
 button.blue {
     background-color: var(--blue);
     color: var(--white);
+    border: 1px solid var(--blue);
 }
 
 button.dark-grey {
