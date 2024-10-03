@@ -303,3 +303,20 @@ section.customer-logos {
 .card button {
     margin-top: 1.25rem;
 }
+
+/* CTA LOWER */
+
+.cta-lower .container {
+    margin-top: 2rem;
+}
+
+.cta-lower h3 {
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.cta-lower p {
+    margin-top: 1rem;
+    color: var(--grey-text);
+    text-align: center;
+}
