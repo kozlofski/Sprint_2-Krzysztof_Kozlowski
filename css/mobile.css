@@ -444,6 +444,7 @@ section.customer-logos {
 .cta-lower a {
     color: var(--blue-link);
     font-size: 1.125rem;
+    font-weight: 400;
 }
 
 .cta-lower .fa-arrow-right {
@@ -478,6 +479,7 @@ section.customer-logos {
 
 .contact label {
     font-size: 0.875rem;
+    font-weight: 500;
     color: var(--white);
 }
 
