@@ -321,3 +321,8 @@ section.customer-logos {
     text-align: center;
     line-height: 1.5rem;
 }
+
+.cta-lower .cards {
+    display: flex;
+    flex-direction: column;
+}
