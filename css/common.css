@@ -23,5 +23,8 @@
     --progress-bar-blue: #1c64f2;
     --progress-bar-background: #374151;
 
+    --form-input-background: #374151;
     --form-border-grey: #4b5563;
+
+    --indicator-inactive: #d1d5db;
 }
