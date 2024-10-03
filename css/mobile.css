@@ -162,3 +162,9 @@ nav .burger-menu {
     color: var(--grey-text);
     text-align: center;
 }
+
+/* CTA UPPER */
+
+.cta-upper button {
+    padding: 10px 20px;
+}
