@@ -16,7 +16,6 @@ body {
 h2 {
     font-size: 1.875rem;
     font-weight: 800;
-    /* 30px */
 }
 
 button {
@@ -193,11 +192,8 @@ nav .burger-menu {
     display: none;
 }
 
-.cta-upper h3 {
-    color: var(--white);
-    font-size: 1.875rem;
+.cta-upper h2 {
     line-height: 2.34375rem;
-    font-weight: 800;
 }
 
 .cta-upper p {
@@ -232,9 +228,7 @@ section.customer-logos {
     flex-direction: column;
 }
 
-.heading-and-description h3 {
-    font-size: 1.875rem;
-    font-weight: 800;
+.customer-logos h2 {
     text-align: center;
 }
 
@@ -316,9 +310,7 @@ section.customer-logos {
     margin-top: 2rem;
 }
 
-.cta-lower h3 {
-    font-size: 1.875rem;
-    font-weight: 800;
+.cta-lower h2 {
     text-align: center;
 }
 
