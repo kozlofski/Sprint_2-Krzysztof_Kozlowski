@@ -440,3 +440,20 @@ section.customer-logos {
 .cta-lower .fa-arrow-right {
     margin-left: 0.5rem;
 }
+
+/* CONTACT SECTION */
+
+.contact .container {
+    margin-top: 4rem;
+}
+
+.contact .heading-and-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact p {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
