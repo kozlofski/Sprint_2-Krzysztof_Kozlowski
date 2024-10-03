@@ -52,3 +52,16 @@ nav .login-buttons {
     font-size: 0.875rem;
     padding: 0.625rem 1.25rem;
 }
+
+/* HERO SECTION */
+
+.hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    /* grid-template-areas: ; */
+}
+
+.hero .buttons {
+    flex-direction: row;
+}
