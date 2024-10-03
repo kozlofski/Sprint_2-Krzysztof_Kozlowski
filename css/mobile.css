@@ -253,7 +253,16 @@ nav .burger-menu {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1.5rem;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+@media (min-width: 700px) {
+    .customer-logos .customers {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        /* to avoid a five- or six-column grid made by display: flex */
+    }
 }
 
 .customer-logos .card {
@@ -262,7 +271,7 @@ nav .burger-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* position: relative; */
+
 }
 
 .customer-logos svg {
@@ -285,8 +294,3 @@ nav .burger-menu {
     height: 3.625rem;
     align-content: center;
 }
-
-/* 
-.card p {
-    margin-top: 3.625rem;
-} */
