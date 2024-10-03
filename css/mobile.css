@@ -325,4 +325,12 @@ section.customer-logos {
 .cta-lower .cards {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cta-lower .card {
+    background-color: var(--grey-background);
+    border: 1px solid var(--grey-border);
+    border-radius: 0.5rem;
 }
