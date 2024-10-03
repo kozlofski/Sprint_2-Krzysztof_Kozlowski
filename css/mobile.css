@@ -6,6 +6,7 @@ body {
 .container {
     margin: 0 1rem;
     border: 2px dashed red;
+    min-width: 320px;
 }
 
 h2 {
@@ -180,4 +181,11 @@ nav .burger-menu {
 .cta-upper h3 {
     font-size: 1.875rem;
     line-height: 2.34375rem;
+    font-weight: 800;
+}
+
+.cta-upper p {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    font-weight: 400;
 }
