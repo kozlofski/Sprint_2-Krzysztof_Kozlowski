@@ -173,6 +173,12 @@ nav .burger-menu {
 
 .cta-upper .container {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-upper article {
+    margin-bottom: 2rem;
 }
 
 .cta-upper button {
