@@ -500,3 +500,36 @@ section.customer-logos {
     line-height: 1.3125rem;
     padding: 0.625rem 1.25rem;
 }
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: var(--grey-background);
+    padding-top: 6rem;
+}
+
+footer .container {
+    padding-top: 2rem;
+}
+
+footer h4 {
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+}
+
+footer ul {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer li {
+    margin-bottom: 1rem;
+}
+
+footer a,
+footer a:visited {
+    color: var(--grey-text);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
