@@ -247,3 +247,7 @@ nav .burger-menu {
     text-align: center;
     margin-top: 1rem;
 }
+
+.customer-logos .fa-arrow-right {
+    margin-left: 0.375rem;
+}
