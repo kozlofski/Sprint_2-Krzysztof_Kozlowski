@@ -9,7 +9,7 @@ body {
 
 .container {
     margin: 0 1rem;
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
     min-width: 320px;
 }
 
