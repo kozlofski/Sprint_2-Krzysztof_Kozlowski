@@ -66,6 +66,10 @@ nav .login-buttons {
     margin-right: 4rem;
 }
 
+.hero h2 {
+    font-size: 3rem;
+}
+
 .hero .description {
     font-size: 1.25rem;
     line-height: 1.875rem;
