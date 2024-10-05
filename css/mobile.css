@@ -113,7 +113,8 @@ nav .burger-menu {
 .hero-image {
     background-image: url("./../img/satellite-view-1.jpeg");
     background-size: cover;
-    padding-top: 100%;
+    background-position: center;
+    padding-top: min(100%, 30rem);
     border-radius: 0.5rem;
 }
 

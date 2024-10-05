@@ -101,6 +101,7 @@ nav .login-buttons {
 }
 
 .hero-image {
+    height: 100%;
     padding-top: 62.5%;
 }
 
