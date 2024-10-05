@@ -206,3 +206,27 @@ nav .login-buttons {
 .cta-upper .buttons {
     margin-top: 1.5rem;
 }
+
+/* CUSTOMER LOGOS */
+
+section.customer-logos {
+    padding: 6rem 0;
+}
+
+.customer-logos .heading-and-description {
+    width: 42rem;
+    margin: 0 auto;
+}
+
+.customer-logos h2 {
+    font-size: 2.25rem;
+}
+
+.customer-logos p {
+    font-size: 1.25;
+    line-height: 1.875rem;
+}
+
+.customer-logos .customers {
+    margin-top: 4rem;
+}
