@@ -5,8 +5,8 @@ footer {
 }
 
 .container {
-    /* border: 2px dashed red; */
     max-width: 1920px;
+    margin: 0 auto;
 }
 
 /* NAVBAR SECTION */
