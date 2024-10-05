@@ -5,7 +5,7 @@ footer {
 }
 
 .container {
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
     max-width: 1920px;
 }
 
@@ -59,9 +59,59 @@ nav .login-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, auto);
-    /* grid-template-areas: ; */
+    grid-auto-flow: column;
+    margin-top: 6rem;
+}
+
+.hero .title-and-description {
+    margin-right: 4rem;
+}
+
+.hero .description {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.hero h6 {
+    display: block;
+    color: var(--grey-text);
+    line-height: 1.5rem;
+    margin-top: 2rem;
 }
 
 .hero .buttons {
     flex-direction: row;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--grey-border);
+}
+
+.hero button {
+    width: 11.375rem;
+}
+
+.hero .carousel {
+    grid-row: 1 / 4;
+    margin: 2.3125rem 0 2.3125rem 4rem;
+    width: calc(100% - 4rem);
+}
+
+.carousel img {
+    height: 100%;
+}
+
+.indicators {
+    left: calc(50%- 34px);
+}
+
+.hero .logos {
+    margin-top: 0.75rem;
+    justify-content: space-between;
+    transform: scale(0.96);
+    /* to fit transformed svg logos */
+}
+
+.hero .logo {
+    transform: scale(1.3);
 }
