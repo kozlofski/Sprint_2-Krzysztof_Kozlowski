@@ -314,11 +314,14 @@ section.customer-logos {
     margin-top: 2rem;
 }
 
-.cta-lower h2 {
-    text-align: center;
+.cta-lower .heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.cta-lower p {
+.cta-lower-description {
     margin-top: 1rem;
     color: var(--grey-text);
     text-align: center;
@@ -430,11 +433,13 @@ section.customer-logos {
     font-weight: 700;
 }
 
-.cta-lower p {
+.cta-lower .card-paragraph {
+    color: var(--grey-text);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
     text-align: left;
+    margin-top: 1rem;
 }
 
 .cta-lower .buttons {
