@@ -149,11 +149,28 @@ nav .login-buttons {
 
 /* CTA UPPER */
 
+.cta-upper .container {
+    margin-top: 6rem;
+}
+
+.cta-upper article {
+    display: grid;
+    grid-template-areas: "image . content";
+    grid-template-columns: 42fr 5rem 58fr;
+}
+
+.cta-upper article:nth-child(2n) {
+    grid-template-areas: "content . image";
+    grid-template-columns: 58fr 5rem 42fr;
+}
+
 .cta-upper-image {
+    grid-area: image;
     display: block;
-    width: 42%;
-    padding-top: calc(42% * 0.75);
+    width: 100%;
+    padding-top: calc(75%);
     background-size: cover;
+    background-position: center;
 }
 
 .planting-trees {
@@ -166,4 +183,26 @@ nav .login-buttons {
 
 .plant-face {
     background-image: url("./../img/plant-face.jpeg");
+}
+
+.cta-upper .content {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 0 1rem 0 5rem; */
+}
+
+.cta-upper h2 {
+    font-size: 2.25rem;
+}
+
+.cta-upper p {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    margin-top: 1.5rem;
+}
+
+.cta-upper .buttons {
+    margin-top: 1.5rem;
 }
