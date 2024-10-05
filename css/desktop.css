@@ -146,3 +146,24 @@ nav .login-buttons {
 .stat .h3 {
     font-size: 2.25rem;
 }
+
+/* CTA UPPER */
+
+.cta-upper-image {
+    display: block;
+    width: 42%;
+    padding-top: calc(42% * 0.75);
+    background-size: cover;
+}
+
+.planting-trees {
+    background-image: url("./../img/planting-trees.jpeg");
+}
+
+.sat-view {
+    background-image: url("./../img/satellite-view.jpeg");
+}
+
+.plant-face {
+    background-image: url("./../img/plant-face.jpeg");
+}
