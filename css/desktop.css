@@ -102,11 +102,14 @@ nav .login-buttons {
 
 .hero-image {
     height: 100%;
-    padding-top: 62.5%;
 }
 
 .indicators {
     left: calc(50%- 34px);
+}
+
+.hero .sponsors {
+    margin-right: 4rem;
 }
 
 .hero .logos {
