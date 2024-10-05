@@ -281,3 +281,29 @@ section.customer-logos {
 .contact form {
     margin-top: 4rem;
 }
+
+/* FOOTER SECTION */
+
+footer .container {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+footer .nav-links {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer .links-column {
+    flex-basis: 20%;
+}
+
+footer .logo-and-social-links {
+    margin: 4rem auto 0 auto;
+    text-align: center;
+}
+
+footer .social-links {
+    margin: 1.25rem auto 0 auto;
+}
