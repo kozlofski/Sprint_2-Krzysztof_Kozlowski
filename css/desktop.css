@@ -147,10 +147,15 @@ nav .login-buttons {
 
 /* CTA UPPER */
 
+.cta-upper .container {
+    row-gap: 4rem;
+}
+
 .cta-upper article {
     display: grid;
     grid-template-areas: "image . content";
     grid-template-columns: 42fr 5rem 58fr;
+    margin-bottom: 0;
 }
 
 .cta-upper article:nth-child(2n) {
