@@ -476,6 +476,7 @@ section.customer-logos {
 }
 
 .contact .heading-and-description {
+    color: var(--grey-text);
     display: flex;
     flex-direction: column;
     align-items: center;
