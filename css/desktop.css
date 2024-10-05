@@ -100,8 +100,8 @@ nav .login-buttons {
     width: calc(100% - 4rem);
 }
 
-.carousel img {
-    height: 100%;
+.hero-image {
+    padding-top: 62.5%;
 }
 
 .indicators {
