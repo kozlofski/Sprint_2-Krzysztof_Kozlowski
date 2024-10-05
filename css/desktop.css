@@ -6,7 +6,7 @@ footer {
 
 .container {
     max-width: 1920px;
-    margin: 0 auto;
+    margin: 6rem auto;
 }
 
 /* NAVBAR SECTION */
@@ -60,7 +60,6 @@ nav .login-buttons {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, auto);
     grid-auto-flow: column;
-    margin-top: 6rem;
 }
 
 .hero .title-and-description {
@@ -119,7 +118,6 @@ nav .login-buttons {
 /* SOCIAL PROOF SECTION */
 
 .social-proof .container {
-    margin-top: 6rem;
     background-color: inherit;
 }
 
@@ -148,10 +146,6 @@ nav .login-buttons {
 }
 
 /* CTA UPPER */
-
-.cta-upper .container {
-    margin-top: 6rem;
-}
 
 .cta-upper article {
     display: grid;
@@ -210,7 +204,7 @@ nav .login-buttons {
 /* CUSTOMER LOGOS */
 
 section.customer-logos {
-    padding: 6rem 0;
+    padding: 0;
 }
 
 .customer-logos .heading-and-description {
@@ -265,7 +259,7 @@ section.customer-logos {
 /* CONTACT SECTION */
 
 .contact .container {
-    margin: 12rem auto 6rem auto;
+    /* margin: 6rem auto 6rem auto; */
     width: 50%;
 }
 
