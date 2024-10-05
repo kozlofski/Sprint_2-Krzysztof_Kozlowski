@@ -230,3 +230,34 @@ section.customer-logos {
 .customer-logos .customers {
     margin-top: 4rem;
 }
+
+/* CTA LOWER */
+
+.cta-lower .heading {
+    margin: 6rem auto 0 auto;
+    max-width: 42rem;
+}
+
+.cta-lower .cards {
+    margin-top: 2rem;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.cta-lower .card {
+    padding: 2rem;
+}
+
+.cta-lower-image {
+    padding-top: 50%;
+}
+
+.cta-lower .buttons {
+    flex-direction: row;
+}
+
+.cta-lower button {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-size: 0.875rem;
+}
