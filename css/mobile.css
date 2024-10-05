@@ -47,7 +47,7 @@ nav .container {
 }
 
 nav .logo {
-    font-size: 1.666rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -106,13 +106,15 @@ nav .burger-menu {
 }
 
 .hero .carousel {
+    width: 100%;
     position: relative;
 }
 
-.carousel img {
+.hero-image {
+    background-image: url("./../img/satellite-view-1.jpeg");
     background-size: cover;
-    width: 100%;
-    height: 50%;
+    background-position: center;
+    padding-top: min(100%, 30rem);
     border-radius: 0.5rem;
 }
 
@@ -188,7 +190,7 @@ nav .burger-menu {
     padding: 10px 20px;
 }
 
-.cta-upper img {
+.cta-upper-image {
     display: none;
 }
 
@@ -257,6 +259,7 @@ section.customer-logos {
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: space-around;
+    margin-top: 2rem;
 }
 
 @media (min-width: 700px) {
@@ -312,11 +315,14 @@ section.customer-logos {
     margin-top: 2rem;
 }
 
-.cta-lower h2 {
-    text-align: center;
+.cta-lower .heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.cta-lower p {
+.cta-lower-description {
     margin-top: 1rem;
     color: var(--grey-text);
     text-align: center;
@@ -340,6 +346,22 @@ section.customer-logos {
 .cta-lower img {
     width: 100%;
     border-radius: 8px;
+}
+
+.cta-lower-image {
+    width: 100%;
+    padding-top: min(30rem, 100%);
+    background-size: cover;
+    background-position: center;
+    /* max-height: 20rem; */
+}
+
+.card .planting-trees {
+    background-image: url("./../img/planting-trees.jpeg")
+}
+
+.card .women-with-shovels {
+    background-image: url("./../img/women-with-shovels.jpeg");
 }
 
 .cta-lower .donation-progress {
@@ -412,11 +434,13 @@ section.customer-logos {
     font-weight: 700;
 }
 
-.cta-lower p {
+.cta-lower .card-paragraph {
+    color: var(--grey-text);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
     text-align: left;
+    margin-top: 1rem;
 }
 
 .cta-lower .buttons {
@@ -453,6 +477,7 @@ section.customer-logos {
 }
 
 .contact .heading-and-description {
+    color: var(--grey-text);
     display: flex;
     flex-direction: column;
     align-items: center;
