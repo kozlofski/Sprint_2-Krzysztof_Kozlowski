@@ -344,6 +344,22 @@ section.customer-logos {
     border-radius: 8px;
 }
 
+.cta-lower-image {
+    width: 100%;
+    padding-top: min(30rem, 100%);
+    background-size: cover;
+    background-position: center;
+    /* max-height: 20rem; */
+}
+
+.card .planting-trees {
+    background-image: url("./../img/planting-trees.jpeg")
+}
+
+.card .women-with-shovels {
+    background-image: url("./../img/women-with-shovels.jpeg");
+}
+
 .cta-lower .donation-progress {
     width: 100%;
 }
