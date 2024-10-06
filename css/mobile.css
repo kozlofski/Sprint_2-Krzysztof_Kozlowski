@@ -25,13 +25,13 @@ button {
     font-weight: 500;
 }
 
-button.blue {
+.blue-button {
     background-color: var(--blue);
     color: var(--white);
     border: 1px solid var(--blue);
 }
 
-button.dark-grey {
+.dark-grey-button {
     background-color: var(--grey-background);
     color: var(--grey-text);
     border: 1px solid var(--grey-border);
