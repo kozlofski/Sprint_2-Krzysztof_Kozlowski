@@ -22,7 +22,6 @@ nav .navbar {
     display: flex;
     flex-direction: row;
     justify-self: start;
-    /* margin-left: 4rem; */
     gap: 2rem;
 }
 
@@ -198,7 +197,6 @@ nav .login-buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin: 0 1rem 0 5rem; */
 }
 
 .cta-upper h2 {
@@ -277,7 +275,6 @@ section.customer-logos {
 /* CONTACT SECTION */
 
 .contact .container {
-    /* margin: 6rem auto 6rem auto; */
     width: 50%;
 }
 
