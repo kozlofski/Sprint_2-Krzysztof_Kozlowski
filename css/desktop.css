@@ -269,6 +269,10 @@ section.customer-logos {
     font-size: 0.875rem;
 }
 
+.cta-lower .cta-link {
+    margin-top: 2rem;
+}
+
 /* CONTACT SECTION */
 
 .contact .container {
